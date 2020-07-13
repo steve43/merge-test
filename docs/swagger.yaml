@@ -5,7 +5,7 @@ info:
     out more about Swagger at
     [http://swagger.io](http://swagger.io) or on
     [irc.freenode.net, #swagger](http://swagger.io/irc/).
-  version: "1.0.0-c"
+  version: "1.0.0-d"
   title: Swagger Petstore
   termsOfService: 'http://swagger.io/terms/'
   contact:
@@ -36,7 +36,7 @@ paths:
     post:
       tags:
         - pet
-      summary: change c
+      summary: Add a new pet to the store
       operationId: addPet
       responses:
         '405':
@@ -111,7 +111,7 @@ paths:
     get:
       tags:
         - pet
-      summary: Finds Pets by tags
+      summary: change d
       description: >-
         Muliple tags can be provided with comma separated strings. Use\ \ tag1,
         tag2, tag3 for testing.
