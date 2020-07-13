@@ -1,11 +1,11 @@
 openapi: 3.0.0
 info:
   description: |
-    This is a sample Petstore server.  You can find
+    change e This is a sample Petstore server.  You can find
     out more about Swagger at
     [http://swagger.io](http://swagger.io) or on
     [irc.freenode.net, #swagger](http://swagger.io/irc/).
-  version: "1.0.0-c"
+  version: "1.0.0-e"
   title: Swagger Petstore
   termsOfService: 'http://swagger.io/terms/'
   contact:
@@ -36,7 +36,7 @@ paths:
     post:
       tags:
         - pet
-      summary: change c
+      summary: Add a new pet to the store
       operationId: addPet
       responses:
         '405':
