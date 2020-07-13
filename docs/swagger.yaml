@@ -5,7 +5,7 @@ info:
     out more about Swagger at
     [http://swagger.io](http://swagger.io) or on
     [irc.freenode.net, #swagger](http://swagger.io/irc/).
-  version: "1.0.0-a"
+  version: "1.0.0-c"
   title: Swagger Petstore
   termsOfService: 'http://swagger.io/terms/'
   contact:
@@ -36,7 +36,7 @@ paths:
     post:
       tags:
         - pet
-      summary: test a
+      summary: change c
       operationId: addPet
       responses:
         '405':
